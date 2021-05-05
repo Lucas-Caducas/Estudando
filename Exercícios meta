@@ -1,0 +1,62 @@
+//Exercício 1
+
+var num = 2;
+var result = 0;
+
+result = Math.pow(num, 2);
+
+console.log("Exercício 1");
+console.log(result);
+console.log("");
+
+//Exercício 2
+console.log("Exercício 2");
+
+var num = 0;
+var result = 0;
+
+num = 1 + 1;
+result = Math.pow(num, 2);
+
+console.log(result);
+console.log("");
+
+//Exercício 3
+console.log("Exercício 3");
+
+var num = 0;
+var result = 0;
+
+var num = prompt("Digite um número de 0 a 9");
+
+if(num%2 == 0){
+    console.log("Você digitou" + num + ", que é um número par");
+}
+else{
+    console.log("Você digitou" + num + ", que é um número ímpar");
+}
+
+//Exercício 4
+var num = [];
+            for(var i = 0; i<5; i++){
+                num[i] = 2*parseInt(prompt("Digite o ${i+1}º número de 1 - 10: "));
+            }       
+            console.log("O dobro dos números digitados é: ${num}");
+
+//Exercício 5
+
+var num1 = parseInt(prompt("Digite o primeiro número: "));
+            var num2 = parseInt(prompt("Digite o segundo número: "))
+            console.log("A média dos número é ${parseFloat((num1+num2)/2).toFixed(1)}");
+            
+//Exercício 6
+
+var val = 0;
+            for (var i = 0; i<3; i++){
+                val += parseFloat(prompt("Digite o ${i+1}º valor: "))/3;
+            }
+            if(val>=7) console.log("Aprovado!");
+            else console.log("Reprovado :C");
+            
+//Exercício 7
+
